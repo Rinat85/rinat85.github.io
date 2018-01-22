@@ -1,2 +1,2 @@
-# rinat85.github.io
+# Rinat Guynulin
 tinyOne
