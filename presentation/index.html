@@ -49,18 +49,97 @@
     </section>
 
     <section>
-      <h2>Что же такое <span style="color: gold;">AJAX</span>?</h2>
-      <p class="fragment fade-up">
+      <section>
+        <h2>Что же такое <span style="color: gold;">AJAX</span>?</h2>
+      </section>
+      <section>
+        <p>AJAX - это НЕ футбольный клуб.</p>
+        <img width="640" height="480" data-src="img/ajax-fc.jpeg" alt="ajax-fc">
+      </section>
+      <section>
         <small>
           <span style="color: gold;">AJAX</span> – это акроним, раскрывающийся как <span style="color: gold;">Asynchronous JavaScript And XML</span>
-          и означающий асинхронный JavaScript и
-          XML. AJAX – это технология, включающая сценарии JavaScript в документе HTML, которые по мере необходимости в
-          фоновом режиме выполняют запросы к серверу (серверным сценарием на каком либо языке web-программирования), и
-          получают необходимые данные, обновляя отдельные части документа и тем самым исключая необходимость его
-          повторной
-          загрузки или загрузки другого документа.
+          и означающий асинхронный JavaScript и XML. Это набор методов веб-разработки, которые позволяют веб-приложениям
+          работать асинхронно — обрабатывать
+          любые запросы к серверу в фоновом режиме.
         </small>
-      </p>
+      </section>
+      <section>
+        <small>
+          <h3>Давайте рассмотрим каждый термин отдельно и разберём, что такое <span style="color: gold;">AJAX.</span>
+          </h3>
+          <img width="500" height="284" data-src="img/tsview.gif" alt="view">
+        </small>
+      </section>
+      <section>
+        <h4>В состав AJAX входят следующие компоненты:</h4>
+        <small>
+          <ul>
+            <li><span style="color: gold;">JavaScript</span> – основной ингредиент AJAX, реализующий функциональность на
+              стороне клиента. В функциях JavaScript для манипулирования отдельными частями документа задействуется
+              объектная модель документа (DOM). JavaScript – основной ингредиент AJAX, реализующий функциональность на
+              стороне клиента. В функциях JavaScript для манипулирования отдельными частями документа задействуется
+              объектная модель документа (DOM).
+            </li>
+            <li class="fragment"><span style="color: gold;">Объект XMLHttpRequest</span> (встроенный в браузер)
+              позволяет из JavaScript
+              организовать асинхронный доступ к серверу, благодаря чему пользователь имеет возможность продолжать работу
+              с
+              документом, в то время как она выполняет некоторые действия. Под доступом к серверу подразумеваются
+              простые
+              запросы HTTP на выполнение сценариев, размещенный на сервере.
+            </li>
+            <li class="fragment"><span style="color: gold;">Серверные сценарии</span>, необходимые для обслуживания
+              запросов поступающих из
+              JavaScript со стороны клиента. Эти сценарии, как правило, возвращают результаты своей работы в формате
+              XML.
+              Серверные сценарии, необходимые для обслуживания запросов поступающих из JavaScript со стороны клиента.
+            </li>
+          </ul>
+        </small>
+      </section>
+      <section>
+        <small>
+          <h3>Немного истории</h3>
+          <p>
+            Впервые термин <span style="color: gold;">AJAX</span> был публично использован 18 февраля <span
+            style="color: gold;">2005</span> года в статье Джесси Джеймса Гарретта (Jesse
+            James Garrett) «Новый подход к веб-приложениям». Гарретт придумал термин, когда ему пришлось как-то назвать
+            новый набор технологий, предлагаемый им клиенту.
+          </p>
+          <p class="fragment">Однако в той или иной форме многие технологии были
+            доступны
+            и использовались гораздо раньше, например в
+            подходе «Remote Scripting», предложенном компанией Microsoft в <span style="color: gold;">1998</span> году,
+            или с использованием HTML-элемента
+            IFRAME, появившегося в Internet Explorer 3 в <span style="color: gold;">1996</span> году.
+          </p>
+          <p class="fragment">
+            <span style="color: gold;">XMLHttpRequest</span> не был web-стандартом до 2006 года, не смотря на то что он
+            был уже реализован во многих браузерах.
+          </p>
+          <p class="fragment"><span
+            style="color: gold;">AJAX</span> стал особенно популярен после использования его компанией Google в сервисах
+            <span style="color: #17A05D;">Gmail</span>, <span style="color: #DD5145;">Google Maps</span> и <span
+              style="color: #FFCD42;">Google Suggest</span>.
+          </p>
+        </small>
+      </section>
+      <section>
+        <img width="29%" height="auto" data-src="img/gmail.png" alt="gmail">
+        <img width="29%" height="auto" data-src="img/gmaps.png" alt="gmaps">
+        <img width="29%" height="auto" data-src="img/gsuggest.png" alt="gsuggest">
+      </section>
+      <section>
+        <small>
+          <h3>Альтернативные технологии:</h3>
+          <ul>
+            <li>Java-апплеты, позднее технология <span style="color: gold;">JavaFX</span></li>
+            <li>Технология <span style="color: gold;">Silverlight</span> корпорации Microsoft</li>
+            <li>Протокол <span style="color: gold;">WebSocket</span></li>
+          </ul>
+        </small>
+      </section>
     </section>
 
     <section>
@@ -100,25 +179,43 @@
                alt="traditional">
         </a>
       </section>
+      <section>
+        <small>
+          <h2>Немного практических примеров:</h2>
+          <a href="#" class="navigate-down">
+            <img width="702" height="345" data-src="img/ajax-demo.gif" alt="ajax-demo">
+          </a>
+        </small>
+      </section>
+      <section>
+        <a href="#" class="navigate-down">
+          <img width="784" height="585" data-src="img/ajax-demonstration.gif" alt="ajax-demo">
+        </a>
+      </section>
     </section>
 
     <section>
       <h4>Преимущества использования AJAX:</h4>
       <small>
         <ul>
-          <li><span style="color: gold;">Экономия трафика.</span> Передаются данные только конкретной части страницы,
+          <li class="fragment"><span style="color: gold;">Экономия трафика.</span> Передаются данные только конкретной
+            части страницы,
             что существенно снижает трафик
           </li>
-          <li><span style="color: gold;">Уменьшение нагрузки на сервер.</span> Нет надобности обновлять страницу
+          <li class="fragment"><span style="color: gold;">Уменьшение нагрузки на сервер.</span> Нет надобности обновлять
+            страницу
             целиком, уходит конкретный запрос.
           </li>
-          <li><span style="color: gold;">Быстрая работа самого сервиса.</span> Поскольку работа происходит с конкретным
+          <li class="fragment"><span style="color: gold;">Быстрая работа самого сервиса.</span> Поскольку работа
+            происходит с конкретным
             блоком, то и результат его работы можно увидеть намного быстрее.
           </li>
-          <li><span style="color: gold;">Простота проекта.</span> AJAX часто используют для работы с программным кодом и
+          <li class="fragment"><span style="color: gold;">Простота проекта.</span> AJAX часто используют для работы с
+            программным кодом и
             с большой масштабностью проекта.
           </li>
-          <li><span style="color: gold;">Разнообразие в использовании.</span> Действие AJAX подразумевает под собой не
+          <li class="fragment"><span style="color: gold;">Разнообразие в использовании.</span> Действие AJAX
+            подразумевает под собой не
             только работу с формами. Например, в поиске Google вы можете видеть подборку поисковых фраз после ввода уже
             первых букв Вашего запроса.
           </li>
@@ -127,31 +224,9 @@
     </section>
 
     <section>
-      <h4>В состав AJAX входят следующие компоненты:</h4>
-      <small>
-        <ul>
-          <li><span style="color: gold;">JavaScript</span> – основной ингредиент AJAX, реализующий функциональность на
-            стороне клиента. В функциях JavaScript для манипулирования отдельными частями документа задействуется
-            объектная модель документа (DOM). JavaScript – основной ингредиент AJAX, реализующий функциональность на
-            стороне клиента. В функциях JavaScript для манипулирования отдельными частями документа задействуется
-            объектная модель документа (DOM).
-          </li>
-          <li><span style="color: gold;">Объект XMLHttpRequest</span> (встроенный в браузер) позволяет из JavaScript
-            организовать асинхронный доступ к серверу, благодаря чему пользователь имеет возможность продолжать работу с
-            документом, в то время как она выполняет некоторые действия. Под доступом к серверу подразумеваются простые
-            запросы HTTP на выполнение сценариев, размещенный на сервере.
-          </li>
-          <li><span style="color: gold;">Серверные сценарии</span>, необходимые для обслуживания запросов поступающих из
-            JavaScript со стороны клиента. Эти сценарии, как правило, возвращают результаты своей работы в формате XML.
-            Серверные сценарии, необходимые для обслуживания запросов поступающих из JavaScript со стороны клиента.
-          </li>
-        </ul>
-      </small>
-    </section>
-
-    <section>
       <h4>Обмен данными</h4>
-      <a href="#" class="navigate-down"  style="display: inline-block;width: 45%;">
+      <a href="#" class="navigate-down" style="display: inline-block;width: 45%;">
+        <br>
         <img width="470" height="240" data-src="img/AJAX-in-background.png" alt="ajax in background">
       </a>
       <small style="display: inline-block;font-size: 16px; width: 53%;">
@@ -159,22 +234,30 @@
         <pre style="margin: 0 auto;">
           <code>
             // 1. Создаём новый объект XMLHttpRequest
-            var xhr = new XMLHttpRequest();
+            let xhr = new XMLHttpRequest();
 
-            // 2. Конфигурируем его: GET-запрос на URL 'phones.json'
-            xhr.open('GET', 'phones.json', false);
+            // 2. Конфигурируем его(устанавливаем соединение):
+                  // GET-запрос на URL 'http://domain/service'
+            xhr.open('GET', 'http://domain/service');
 
-            // 3. Отсылаем запрос
+            // 3. вызывает функцию при смене состояния
+            xhr.onreadystatechange = function() {
+
+              // завершился ли запрос?
+              if (xhr.readyState !== 4) return;
+
+              if (xhr.status === 200) {
+                // Запрос завершен. Здесь можно обрабатывать результат
+                console.log(xhr.responseText);
+              }
+              else {
+                // Если код ответа сервера не 200, то это ошибка
+                console.log('HTTP error', xhr.status, xhr.statusText);
+              }
+            };
+
+            // 4. Отсылаем запрос
             xhr.send();
-
-            // 4. Если код ответа сервера не 200, то это ошибка
-            if (xhr.status != 200) {
-              // обработать ошибку
-              alert( xhr.status + ': ' + xhr.statusText ); // пример вывода: 404: Not Found
-            } else {
-              // вывести результат
-              alert( xhr.responseText ); // responseText -- текст ответа.
-            }
           </code>
         </pre>
       </small>
@@ -192,11 +275,29 @@
       <small>
         <ul>
           <li><span style="color: gold;">abort()</span> — отмена текущего запроса к серверу.</li>
-          <li><span style="color: gold;">getAllResponseHeaders()</span> — получить все заголовки ответа от сервера.</li>
-          <li><span style="color: gold;">getResponseHeader(«имя_заголовка»)</span> — получить указаный заголовок.</li>
-          <li><span style="color: gold;">open(«тип_запроса»,«URL»,«асинхронный»,«имя_пользователя»,«пароль»)</span> — инициализация запроса к серверу, указание метода запроса. Тип запроса и URL — обязательные параметры. Третий аргумент — булево значение. Обычно всегда указывается true или не указывается вообще (по умолчанию — true). Четвертый и пятый аргументы используются для аутентификации (это очень небезопасно, хранить данные об аутентификации в скрипте, так как скрипт может посмотреть любой пользователь).</li>
-          <li><span style="color: gold;">send(«содержимое»)</span> — послать HTTP запрос на сервер и получить ответ.</li>
-          <li><span style="color: gold;">setRequestHeader(«имя_заголовка»,«значение»)</span> — установить значения заголовка запроса.</li>
+          <li class="fragment"><span style="color: gold;">getAllResponseHeaders()</span> — получить все заголовки ответа
+            от сервера.
+          </li>
+          <li class="fragment"><span style="color: gold;">getResponseHeader(«имя_заголовка»)</span> — получить указаный
+            заголовок.
+          </li>
+          <li class="fragment"><span style="color: gold;">open(«тип_запроса»,«URL»,«асинхронный»,«имя_пользователя»,«пароль»)</span>
+            —
+            инициализация запроса к серверу, указание метода запроса. Тип запроса и URL — обязательные параметры. Третий
+            аргумент — булево значение. Обычно всегда указывается true или не указывается вообще (по умолчанию — true).
+            Четвертый и пятый аргументы используются для аутентификации (это очень небезопасно, хранить данные об
+            аутентификации в скрипте, так как скрипт может посмотреть любой пользователь).
+          </li>
+          <li class="fragment"><span style="color: gold;">send(«содержимое»)</span> — это последний этап создания http
+            запроса. С помощью
+            него также можно передать тело запроса т.е. данные от браузера к серверу. Можно не чего не передавать или
+            прямо указать null.
+          </li>
+          <li class="fragment"><span style="color: gold;">setRequestHeader(«имя_заголовка»,«значение»)</span> — это
+            метод для указания
+            передаваемых заголовков, здесь мы можем указать что данные идут в url либо закрытым способом, либо хотим
+            получить данные от сервера в json формате.
+          </li>
         </ul>
       </small>
     </section>
@@ -205,12 +306,24 @@
       <h4>Свойства объекта XMLHttpRequest</h4>
       <small>
         <ul>
-          <li><span style="color: gold;">onreadystatechange</span> — одно из самых главных свойств объекта XMLHttpRequest. С помощью этого свойства задаётся обработчик, который вызывается всякий раз при смене статуса объекта.</li>
-          <li><span style="color: gold;">readyState</span> — число, обозначающее статус объекта.</li>
-          <li><span style="color: gold;">responseText</span> — представление ответа сервера в виде обычного текста (строки).</li>
-          <li><span style="color: gold;">responseXML</span> — объект документа, совместимый с DOM, полученного от сервера.</li>
-          <li><span style="color: gold;">status</span> — состояние ответа от сервера.</li>
-          <li><span style="color: gold;">statusText</span> — текстовое представление состояния ответа от сервера.</li>
+          <li class="fragment"><span style="color: gold;">onreadystatechange</span> — одно из самых главных свойств
+            объекта
+            XMLHttpRequest. С помощью этого свойства задаётся обработчик, который вызывается всякий раз при смене
+            статуса объекта.
+          </li>
+          <li class="fragment"><span style="color: gold;">readyState</span> — число, обозначающее статус объекта.</li>
+          <li class="fragment"><span style="color: gold;">responseText</span> — представление ответа сервера в виде
+            обычного текста
+            (строки).
+          </li>
+          <li class="fragment"><span style="color: gold;">responseXML</span> — объект документа, совместимый с DOM,
+            полученного от
+            сервера.
+          </li>
+          <li class="fragment"><span style="color: gold;">status</span> — состояние ответа от сервера.</li>
+          <li class="fragment"><span style="color: gold;">statusText</span> — текстовое представление состояния ответа
+            от сервера.
+          </li>
         </ul>
       </small>
     </section>
@@ -218,17 +331,12 @@
     <section>
       <h4>Cвойство readyState:</h4>
       <small>
-        <ul>
-          <li><span style="color: gold;">0</span> — Объект не инициализирован.</li>
-          <li><span style="color: gold;">1</span> — Объект загружает данные.</li>
-          <li><span style="color: gold;">2</span> — Объект загрузил свои данные.</li>
-          <li><span style="color: gold;">3</span> — Объек не полностью загружен, но может взаимодействовать с пользователем.</li>
-          <li><span style="color: gold;">4</span> — Объект полностью инициализирован; получен ответ от сервера.</li>
-        </ul>
+        <img width="382" height="364" data-src="img/readystate.png" alt="readystate">
         <br>
         <br>
-        <p>
-          P.S. Именно опираясь на состояние готовности объекта можно представить посетителю информацию о том, на какой стадии находится процесс обмена данными с сервером и, возможно, оповестить его об этом визуально.
+        <p class="fragment">
+          P.S. Именно опираясь на состояние готовности объекта можно представить посетителю информацию о том, на какой
+          стадии находится процесс обмена данными с сервером и, возможно, оповестить его об этом визуально.
         </p>
       </small>
     </section>
@@ -249,14 +357,26 @@
     </section>
 
     <section>
-      <h4>Что же такое <span style="color: gold;">SPA</span> и как оно сзязано с <span style="color: gold;">AJAX</span>?</h4>
+      <h4>Что же такое <span style="color: gold;">SPA</span> и как оно сзязано с <span style="color: gold;">AJAX</span>?
+      </h4>
       <small>
-        <p>
-          Одностраничное приложение (англ. single page application, <span style="color: gold;">SPA</span>) — это веб-приложение или веб-сайт, использующий единственный HTML-документ как оболочку для всех веб-страниц и организующий взаимодействие с пользователем через динамически подгружаемые HTML, CSS, JavaScript, обычно посредством AJAX.
+        <p class="fragment">
+          <span style="color: gold;">SPA</span> (single page application) – это веб-приложение, работающее на одной
+          странице. Оно подгружает все
+          необходимые javascript и css файлы при первой загрузке страницы, а затем все общение между клиентом и сервером
+          сводится к минимуму. Т.е. при таком подходе большая часть работы сайта производится на стороне клиента, а если
+          нужно получить данные с сервера, то это обычно делается с помощью JSON.
+        </p>
+        <p class="fragment">
+          Такой способ создания сайтов появился относительно недавно, с приходом <span style="color: gold;">HTML5</span>, но уже активно набирает обороты.
+          В принципе, здесь нет ничего удивительного, ведь такое веб-приложение будет работать намного быстрее обычных
+          сайтов, да и разработка не займет много времени. Благо, что сейчас уже есть куча фреймворков, которые
+          позволяют создавать очень сложные сайты такого типа достаточно просто и быстро. На данный момент лучшим
+          фреймворком считается React. У него больше плюсов, чем у конкурентов, а также он прост в изучении и
+          использовании.
         </p>
       </small>
     </section>
-
 
     <section>
       <a href="#" class="navigate-down" style="display: inline-block; width: 49%;">
@@ -265,6 +385,11 @@
       <a href="#" class="navigate-down" style="display: inline-block; width: 49%;">
         <img width="404" height="242" data-src="img/spa.png" alt="spa">
       </a>
+    </section>
+
+    <section>
+      <h4>Всем спасибо за внимание!</h4>
+      <img width="500" height="215" data-src="img/thanks.gif" alt="tony">
     </section>
 
   </div>
